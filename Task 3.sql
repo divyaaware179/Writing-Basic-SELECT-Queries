@@ -8,11 +8,11 @@ CREATE TABLE employees (
 
 
 INSERT INTO employees (id, name, department, salary, hire_date) VALUES
-(1, 'Divya', 'HR', 45000, '2020-17-15'),
+(1, 'Divya', 'HR', 45000, '2020-07-15'),
 (2, 'Priya', 'IT', 60000, '2019-07-23'),
 (3, 'Savya', 'Finance', 70000, '2021-03-12'),
 (4, 'Sanika', 'IT', 55000, '2022-11-01'),
-(5, 'John', 'HR', 48000, '2020-19-05');
+(5, 'John', 'HR', 48000, '2020-09-05');
 
 SELECT * FROM employees;
 
