@@ -1,3 +1,6 @@
+CREATE DATABASE employees;
+USE employees;
+
 CREATE TABLE employees (
     id INT PRIMARY KEY,
     name VARCHAR(50),
@@ -15,9 +18,7 @@ INSERT INTO employees (id, name, department, salary, hire_date) VALUES
 (5, 'John', 'HR', 48000, '2020-09-05');
 
 SELECT * FROM employees;
-
 SELECT name, department, salary FROM employees;
-
 
 SELECT * FROM employees
 WHERE department = 'IT';
@@ -44,5 +45,6 @@ ORDER BY department ASC, salary DESC;
 SELECT * FROM employees
 ORDER BY salary DESC
 LIMIT 3; -- top 3 highest salaries
+
 
 
