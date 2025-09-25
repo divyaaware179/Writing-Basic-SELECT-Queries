@@ -10,4 +10,5 @@ This task is about learning how to write basic SQL queries to extract and view d
 
 4. Limit rows – use LIMIT to show only a certain number of results.
 
-mysql -u root -p
+
+
